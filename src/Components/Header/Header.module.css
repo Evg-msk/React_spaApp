@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+
+.Header {
+    text-align: right;
+}
+
+.logo {
+    display: inline;
+    width: 9%;
+    float: left;
+    padding-left: 24%;
+}
+
+.title {
+    padding-right: 30%;
+    display: inline;
+    color: chocolate;
+    font-size: 2.5em;
+    font-family: 'Lobster', cursive;
+    text-decoration: underline;
+}
+
+.subtitle {
+    height: 16px;
+    padding-right: 5%;
+    color: burlywood;
+    font-size: 1.1em;
+    text-shadow: 1.5px .5px blueviolet;
+    margin: 12px 300px 20px 100px;
+    line-height: 5px;
+    font-family: Rockwell;
+}
+
+@media (min-width: 320px) and (max-width: 409px) {
+    .logo {
+        width: 30%;
+        padding-left: 5%;
+    }
+
+    .title {
+        padding-right: 22%;
+        font-size: 1.5em;
+    }
+
+    .subtitle {
+        font-size: 0.7em;
+        margin: 2% 0 5% 15%;
+    }
+}
+
+@media (min-width: 410px) and (max-width: 767px) {
+    .logo {
+        width: 31%;
+        padding-left: 5%;
+    }
+
+    .title {
+        padding-right: 19%;
+        font-size: 1.8em;
+    }
+
+    .subtitle {
+        font-size: 0.8em;
+        margin: 2% 0 5% 15%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .logo {
+        width: 30%;
+        padding-left: 5%;
+    }
+
+    .title {
+        padding-right: 18%;
+        font-size: 3.5em;
+    }
+
+    .subtitle {
+        font-size: 1.5em;
+        margin: 2% 0 5% 0;
+    }
+}

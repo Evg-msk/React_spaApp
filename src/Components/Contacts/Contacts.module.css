@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.boxContact {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.baseInfo {
+    display: block;
+}
+
+.emailLink {
+    color: dimgray;
+    height: 16px;
+    padding-left: 20px;
+    position: relative;
+    text-decoration: none;
+}
+
+.emailLink:before {
+    content: '';
+    background: url(./img/mail.jpg) no-repeat;
+    background-size: cover;
+    position: absolute;
+    height: 16px;
+    width: 16px;
+    top: 0;
+    left: 0;
+}
+
+.emailLink:hover {
+    color: dodgerblue;
+}
+
+.phoneLink {
+    display: flex;
+    color: dimgray;
+    align-items: center;
+    margin: 15px 0 15px 0;
+    height: 16px;
+    padding-left: 20px;
+    position: relative;
+    text-decoration: none;
+}
+
+.phoneLink:before {
+    content: '';
+    background: url(./img/phonenumber.svg) no-repeat;
+    background-size: cover;
+    position: absolute;
+    height: 16px;
+    width: 16px;
+    top: 0;
+    left: 0;
+}
+
+.phoneLink:hover {
+    color: dodgerblue;
+    background: url(./img/phonenumberHover.svg) no-repeat;
+}
+
+.socialInfo {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.instagram {
+    display: inline-block;
+    background: url(./img/instagram.svg) no-repeat;
+    background-size: cover;
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+.instagram:hover {
+    background: url(./img/instagramHover.svg) no-repeat;
+    background-size: cover;
+    transition: 0.3s;
+}
+
+.vk {
+    display: inline-block;
+    background: url(./img/vk.svg) no-repeat;
+    background-size: cover;
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+.vk:hover {
+    background: url(./img/vkHover.svg) no-repeat;
+    background-size: cover;
+    transition: 0.3s;
+}
+
+.github {
+    display: inline-block;
+    background: url(./img/githubsvg.svg) no-repeat;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+}
+
+.github:hover {
+    background: url(./img/githubHover.svg) no-repeat;
+    background-size: cover;
+    transition: 0.3s;
+}
+
+@media (min-width: 320px) and (max-width: 409px) {
+    .boxContact {
+        margin-top: 12px;
+    }
+
+    .phoneLink {
+        margin: 5% 0 10% 0;
+    }
+}
+
+@media (min-width: 410px) and (max-width: 767px) {
+    .boxContact {
+        margin-top: 12px;
+    }
+
+    .emailLink {
+        padding-left: 22px;
+    }
+
+    .phoneLink::before, .emailLink:before {
+        height: 17px;
+        width: 17px;
+    }
+
+    .phoneLink {
+        margin: 5% 0 10% 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .boxContact {
+        margin-top: 15px;
+    }
+
+    .emailLink {
+        padding-left: 45px;
+    }
+
+    .phoneLink::before, .emailLink:before {
+        height: 30px;
+        width: 30px;
+    }
+
+    .phoneLink {
+        margin: 5% 0 10% 0;
+        padding: 7px 0 0 45px;
+    }
+
+    .instagram, .vk, .github {
+        margin-right: 15px;
+        width: 40px;
+        height: 40px;
+    }
+}

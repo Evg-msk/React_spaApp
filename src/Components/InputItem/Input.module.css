@@ -1,0 +1,115 @@
+.tasks {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative;
+    padding-left: 10px;
+    width: 90%;
+}
+
+.input_box {
+    margin-right: 10px;
+    flex-grow: 1;
+}
+
+.input {
+    border: 1px solid gray;
+    box-sizing: border-box;
+    border-radius: 15px;
+    height: 36px;
+    width: 100%;
+    outline: none;
+    padding: 0 12px;
+    background-color: rgba(210,247,234,0.67);
+}
+
+.input_empty,
+.input_exist {
+    position: relative;
+    border-color: red;
+    border-radius: 15px;
+    background-color: rgba(255,0,29,0.14);
+}
+
+.input_exist::before {
+    content: 'Такая задача уже есть в вашем списке. Введите другое название';
+    color: red;
+    font: normal normal 14px/16px 'Roboto';
+    height: auto;
+    max-width: 240px;
+    padding: 8px 11px;
+    position: absolute;
+    bottom: 35px;
+    left: 0;
+}
+
+.input_empty::before {
+    content: 'Поле должно быть заполнено!';
+    color: red;
+    font: normal normal 14px/16px 'Roboto';
+    height: auto;
+    width: auto;
+    padding: 8px 11px;
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+}
+
+.addbutton {
+    margin: 0 10px 0 10px;
+    background: url(./img/plus.svg) no-repeat;
+    height: 45px;
+    width: 45px;
+}
+
+.addbutton:hover {
+    opacity: 0.8;
+}
+
+@media (min-width: 320px) and (max-width: 409px) {
+    .tasks {
+        width: 100%;
+    }
+
+    .input_box {
+        margin-right: 5px;
+    }
+
+    .addbutton {
+        height: 40px;
+        width: 40px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .tasks {
+        width: 95%;
+    }
+
+    .input_box {
+        margin-right: 5px;
+    }
+
+    .input {
+        height: 45px;
+        font-size: 25px;
+    }
+
+    .addbutton {
+        margin-top: 3px;
+        height: 50px;
+        width: 50px;
+    }
+
+    .input_exist::before {
+        width: 40%;
+        font-size: 24px;
+        bottom: 55px;
+        line-height: 25px;
+    }
+
+    .input_empty::before {
+        font-size: 20px;
+        bottom: 50px;
+    }
+}

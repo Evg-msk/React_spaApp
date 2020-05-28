@@ -1,0 +1,39 @@
+.repo_list {
+    list-style-type: none;
+}
+
+.buttons_wrap {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    color: #356EFF;
+    border: 1px solid #999;
+    box-sizing: border-box;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.25);
+    border-radius: 37px;
+    background: none;
+    font: normal normal 14px/16px Roboto;
+    height: 35px;
+    width: 80px;
+    margin-right: 8px;
+    outline: none;
+}
+
+.button:hover {
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid #356EFF;
+    background: #356EFF;
+    transition: 0.7s;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .button {
+        font-size: 20px;
+        height: 50px;
+        width: 100px;
+    }
+}

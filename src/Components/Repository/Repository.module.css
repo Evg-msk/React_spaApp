@@ -1,0 +1,175 @@
+.repo_name {
+    margin: 1% 0 0 2%;
+    font-size: 16px;
+}
+
+.repo_name_link {
+    color: black;
+    text-decoration: none;
+}
+
+.repo_name_link:hover {
+    color: #356EFF;
+}
+
+.repo_about {
+    display: flex;
+    margin: 1% 0 1% 2%;
+    color: #51534f;
+    font-size: 14px;
+}
+
+.language,
+.stargazers,
+.forks,
+.updated {
+    margin-right: 4%;
+    position: relative;
+}
+
+.language {
+    padding-left: 20px;
+    width: 100px;
+}
+
+.stargazers,
+.forks {
+    text-align: right;
+    width: 28px;
+}
+
+.stargazers:before,
+.forks:before {
+    content: '';
+    height: 18px;
+    width: 18px;
+    position: absolute;
+    left: 0;
+}
+
+.stargazers:before {
+    background: url(./img/star.png) no-repeat;
+}
+
+.forks:before {
+    background: url(./img/forks.png) no-repeat;
+}
+
+.html_circle:before,
+.css_circle:before,
+.js_circle:before {
+    content: '';
+    border-radius: 50%;
+    height: 16px;
+    width: 16px;
+    position: absolute;
+    left: 0;
+}
+
+
+.html_circle:before {
+    background: #e34c26;
+}
+
+.css_circle:before {
+    background: #563d7c;
+}
+
+.js_circle:before {
+    background: #f1e05a;
+}
+
+@media (min-width: 320px) and (max-width: 409px) {
+    .repo_name {
+        margin: 1% 0 2% 2%;
+        font-size: 16px;
+    }
+
+    .repo_about {
+        display: flex;
+        margin: 1% 0 1% 2%;
+        color: #51534f;
+        font-size: 14px;
+    }
+
+    .language,
+    .stargazers,
+    .forks,
+    .updated {
+        margin-right: 3%;
+    }
+
+    .language {
+        padding-left: 18px;
+        width: 38px;
+    }
+
+    .html_circle:before,
+    .css_circle:before,
+    .js_circle:before {
+        height: 14px;
+        width: 14px;
+    }
+}
+
+@media (min-width: 410px) and (max-width: 767px) {
+    .repo_name {
+        margin: 1% 0 2% 2%;
+        font-size: 18px;
+    }
+
+    .repo_about {
+        font-size: 16px;
+    }
+
+    .language,
+    .stargazers,
+    .forks,
+    .updated {
+        margin-right: 5%;
+    }
+
+    .language {
+        padding-left: 18px;
+        width: 40px;
+    }
+
+    .html_circle:before,
+    .css_circle:before,
+    .js_circle:before {
+        margin-top: 2px;
+        height: 15px;
+        width: 15px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .repo_name {
+        margin: 1% 0 2% 2%;
+        font-size: 28px;
+    }
+
+    .repo_about {
+        font-size: 22px;
+    }
+
+    .language,
+    .stargazers,
+    .forks,
+    .updated {
+        margin-right: 7%;
+    }
+
+    .language {
+        padding-left: 28px;
+        width: 45px;
+    }
+
+    .html_circle:before,
+    .css_circle:before,
+    .js_circle:before {
+        margin-top: 2px;
+        height: 20px;
+        width: 20px;
+    }
+}

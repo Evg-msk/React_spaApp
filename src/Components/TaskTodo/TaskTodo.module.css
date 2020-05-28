@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* TaskTodo styles*/
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid darkgrey;
+    border-radius: 5px;
+    background-color: rgba(232,213,247,0.67);
+    box-shadow: 10px 10px 5px dimgray;
+    width: 51%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+/*Styles for Itemlist block*/
+.tasks_item_list {
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    margin: 2% auto;
+    width: 95%;
+    height: 50vh;
+}
+
+/*Styles for footer block */
+.footer {
+    width: 100%;
+    margin-right: 5%;
+}
+
+@media (min-width: 320px) and (max-width: 409px) {
+    /* TaskTodo styles*/
+    .container {
+        width: 95%;
+        height: 75vh;
+        box-shadow: 5px 5px 6px dimgray;
+    }
+
+
+    /*Styles for Itemlist block*/
+    .tasks_item_list {
+        width: 100%;
+        height: 50vh;
+    }
+
+    /*Styles for footer block */
+    .footer {
+        width: 100%;
+        margin-right: 5%;
+    }
+}
+
+@media (min-width: 410px) and (max-width: 767px) {
+    /* TaskTodo styles*/
+    .container {
+        width: 95%;
+        height: 75vh;
+        box-shadow: 5px 5px 6px dimgray;
+    }
+
+    /*Styles for Itemlist block*/
+    .tasks_item_list {
+        width: 100%;
+        height: 50vh;
+    }
+
+    /*Styles for footer block */
+    .footer {
+        width: 100%;
+        margin-right: 5%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    /* TaskTodo styles*/
+    .container {
+        width: 95%;
+        height: 65vh;
+    }
+
+    /*Styles for Itemlist block*/
+    .tasks_item_list {
+        width: 100%;
+        height: 50vh;
+    }
+
+    /*Styles for footer block */
+    .footer {
+        width: 100%;
+        margin-right: 5%;
+    }
+}

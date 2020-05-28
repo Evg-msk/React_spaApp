@@ -1,0 +1,263 @@
+*{
+     margin: 0;
+     padding: 0;
+ }
+
+/*a:link {
+    text-decoration: none;
+    margin: 10px;
+}
+
+a:visited {
+    color: darkmagenta;
+    text-decoration: none;
+}*/
+
+h2,h3 {
+    font-family: 'Adobe Heiti Std R';
+    font-size: 40px;
+    color: black;
+    padding: 0;
+    margin: 0;
+    text-shadow: mediumslateblue 0 2px 2px;
+}
+
+.boxAbout {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100vm;
+    height: 100%;
+}
+
+.userBox {
+    width: 50%;
+    padding: 8px;
+    background-color: rgba(232,213,247,0.67);
+    border: darkgrey 2px solid;
+    border-radius: 6px;
+    box-shadow: 7px 7px 5px darkgrey;
+}
+
+.info {
+    text-shadow: mediumslateblue 0 2px 2px;
+}
+
+.user {
+    display: flex;
+    flex-direction: row;
+}
+
+.info_user {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    margin-left: 4%;
+}
+
+.repos {
+    width: 50%;
+    margin-top: 15px;
+    padding: 8px;
+    background-color: rgba(232,213,247,0.67);
+    border: darkgrey 2px solid;
+    border-radius: 6px;
+    box-shadow: 7px 7px 5px darkgrey;
+}
+
+.repoList {
+    list-style-type: none;
+    margin-left: 2%;
+}
+
+.avatar {
+    border-radius: 10px;
+    width: 20%;
+    height: 20%;
+}
+
+/* styles for Preloader */
+
+.preloader {
+    margin:50px auto;
+    display: block;
+    width: 50px;
+    height: 50px;
+    border: 30px;
+    border-radius: 50%;
+    background: mediumslateblue;
+    box-shadow: 0 0 0 rgba(204,169,44, 0.4);
+    animation: pulse 1s infinite;
+}
+
+@-webkit-keyframes pulse {
+    0% {
+        -webkit-box-shadow: 0 0 0 5px rgba(230,240,44, 0.6);
+    }
+    40% {
+        -webkit-box-shadow: 0 0 0 20px rgba(30,110,44, 0.2);
+    }
+    70% {
+        -webkit-box-shadow: 0 0 0 30px rgba(150,240,44, 0);
+    }
+    100% {
+        -webkit-box-shadow: 0 0 0 5px rgba(150,240,44, 0);
+    }
+}
+@keyframes pulse {
+    0% {
+        -moz-box-shadow: 0 0 0 5px rgba(150,240,44, 0.6);
+        box-shadow: 0 0 0 5px rgba(150,240,44, 0.4);
+    }
+    40% {
+        -webkit-box-shadow: 0 0 0 20px rgba(30,180,44, 0.3);
+    }
+    70% {
+        -moz-box-shadow: 0 0 0 30px rgba(150,240,44, 0);
+        box-shadow: 0 0 0 30px rgba(150,240,44, 0);
+    }
+    100% {
+        -moz-box-shadow: 0 0 0 5px rgba(150,240,44, 0);
+        box-shadow: 0 0 0 5px rgba(150,240,44, 0);
+    }
+}
+
+@media (min-width: 480px) and (max-width: 768px) {
+    h2,h3 {
+        font-size: 40px;
+        color: black;
+        padding: 0;
+        margin: 0;
+    }
+
+    .boxAbout {
+        max-width: 680px;
+        min-width: 410px;
+        height: auto;
+    }
+
+    .userBox {
+        width: 50%;
+        padding: 8px;
+        background-color: rgba(232,213,247,0.67);
+        border: darkgrey 2px solid;
+        border-radius: 6px;
+        box-shadow: 7px 7px 5px darkgrey;
+    }
+
+    .info {
+        text-shadow: mediumslateblue 0 2px 2px;
+    }
+
+    .user {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .info_user {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+        margin-left: 4%;
+    }
+
+    .repos {
+        width: 50%;
+        margin-top: 15px;
+        padding: 8px;
+        background-color: rgba(232,213,247,0.67);
+        border: darkgrey 2px solid;
+        border-radius: 6px;
+        box-shadow: 7px 7px 5px darkgrey;
+    }
+
+    .repoList {
+        list-style-type: none;
+        margin-left: 2%;
+    }
+
+    .avatar {
+        border-radius: 10px;
+        width: 20%;
+        height: 20%;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 409px) {
+    h2,h3 {
+        font-size: 25px;
+    }
+
+    .boxAbout {
+        max-width: 400px;
+        min-width: 320px;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    .userBox {
+        width: 90%;
+        font-size: 15px;
+        box-shadow: 4px 5px 3px darkgrey;
+    }
+
+    .repos {
+        width: 90%;
+        box-shadow: 4px 5px 3px darkgrey;
+    }
+
+    .avatar {
+        width: 35%;
+    }
+}
+
+@media (min-width: 410px) and (max-width: 767px) {
+    h2,h3 {
+        font-size: 25px;
+    }
+
+    .boxAbout {
+        max-width: 750px;
+        min-width: 380px;
+        max-height: 100vh;
+        overflow: hidden;
+    }
+
+    .userBox {
+        width: 93%;
+        font-size: 18px;
+        box-shadow: 4px 5px 3px darkgrey;
+    }
+
+    .repos {
+        width: 93%;
+        box-shadow: 4px 5px 3px darkgrey;
+    }
+
+    .avatar {
+        width: 35%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .boxAbout {
+        max-width: 1020px;
+        min-width: 768px;
+        max-height: 100vh;
+        overflow: hidden;
+    }
+
+    .userBox {
+        width: 93%;
+        font-size: 26px;
+    }
+
+    .repos {
+        width: 93%;
+    }
+
+    .avatar {
+        width: 35%;
+    }
+}

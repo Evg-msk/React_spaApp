@@ -1,0 +1,120 @@
+.footer_menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2% 0 2% 2%;
+}
+
+.footer_title {
+    margin-top: 12px;
+    padding-left: 3%;
+    width: 37%;
+    font: normal normal 26px/16px cursive;
+}
+
+.task_count {
+    color: #356EFF;
+    margin-left: 5px;
+    font: normal bold 20px/14px Roboto;
+}
+
+.button {
+    text-align: center;
+    padding: 1px 6px;
+    height: 28px;
+    background: none;
+    border: none;
+    outline: none;
+    margin: 10px 0 0 25px;
+    font: normal normal 20px/14px 'Pacifico', cursive;
+}
+
+.button:hover {
+    cursor: pointer;
+    background: cornsilk;
+    border-radius: 10px;
+    transition: 0.7s;
+}
+
+.selected {
+    background: #7670ee;
+    border-radius: 10px;
+    color: #ffefe4;
+}
+
+.selected:hover {
+    background: #7670ee;
+    opacity: 0.8;
+}
+
+.selected .task_count {
+    color: #ffefe4;
+}
+
+@media (min-width: 320px) and (max-width: 409px) {
+    .footer_menu {
+        display: inline;
+        margin: 2% 0 2% 2%;
+    }
+
+    .footer_title {
+        width: 80%;
+        margin: 2% 0 2% 2%;
+    }
+
+    .task_count {
+        margin-left: 3px;
+        font-size: 15px;
+    }
+
+    .button {
+        padding: 0;
+        margin: 10px 0 0 13px;
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 410px) and (max-width: 767px) {
+    .footer_menu {
+        display: inline;
+        margin: 2% 0 2% 2%;
+    }
+
+    .footer_title {
+        width: 80%;
+        margin: 2% 0 2% 2%;
+    }
+
+    .task_count {
+        margin-left: 5px;
+        font-size: 15px;
+    }
+
+    .button {
+        padding-left: 7px;
+        margin: 10px 0 0 13px;
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .footer_menu {
+        margin: 2% 0 2% 2%;
+    }
+
+    .footer_title {
+        width: 35%;
+        margin: 2% 0 1% 0;
+    }
+
+    .task_count {
+        margin-left: 5px;
+        font-size: 18px;
+    }
+
+    .button {
+        padding-left: 5px;
+        margin: 13px 0 0 0;
+        font-size: 22px;
+    }
+}
