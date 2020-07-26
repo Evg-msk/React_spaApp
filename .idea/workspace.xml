@@ -2,28 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1932904c-bbbe-4766-b57d-fe0f065395de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Components/ItemList/img/noTasksdone.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/About/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/About/About.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/About/About.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/About/About.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/App/App.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/App/App.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Contacts/Contacts.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Contacts/Contacts.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Footer/Footer.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Footer/Footer.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Header/img/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/InputItem/Input.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/InputItem/Input.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/InputItem/InputItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/InputItem/InputItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Item/Item.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Item/Item.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Item/Item.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Item/Item.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/ItemList/ItemList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ItemList/ItemList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/ItemList/ItemList.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ItemList/ItemList.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Repository/Repository.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Repository/Repository.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/TaskTodo/TaskTodo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/TaskTodo/TaskTodo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/TaskTodo/TaskTodo.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/TaskTodo/TaskTodo.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -126,7 +105,7 @@
       <workItem from="1595680236030" duration="590000" />
       <workItem from="1595685813486" duration="870000" />
       <workItem from="1595696587907" duration="4071000" />
-      <workItem from="1595763898842" duration="2405000" />
+      <workItem from="1595763898842" duration="3466000" />
     </task>
     <servers />
   </component>
