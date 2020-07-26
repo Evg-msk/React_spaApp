@@ -11,6 +11,12 @@
     width: 260px;
     height: 180px;
 }
+.picture_done {
+    margin-top: 5%;
+    background: url(./img/noTasksdone.svg) no-repeat;
+    width: 260px;
+    height: 180px;
+}
 
 .empty_article {
     margin: 10% 0 2% 0;
@@ -33,6 +39,7 @@
     display: flex;
     justify-content:space-between;
     align-items: center;
+    outline: none;
 }
 
 .but_edit {
@@ -40,6 +47,7 @@
     padding-right: 10px;
     width: 20px;
     height: 20px;
+    cursor: auto;
 }
 
 .but_edit:hover {
@@ -57,6 +65,7 @@
     margin-left: 5px;
     width: 20px;
     height: 20px;
+    cursor: auto;
 }
 
 .edit_mode_on:hover {
@@ -73,6 +82,7 @@
     padding-right: 10px;
     width: 20px;
     height: 20px;
+    cursor: auto;
 }
 .but_delete:hover {
     background: url(./img/deleteIconHover.svg) no-repeat;
@@ -86,7 +96,7 @@
         height: 30px;
     }
 
-    .picture {
+    .picture, .picture_done {
         margin: 5% 0 0 5%;
         width: 260px;
         height: 180px;
@@ -115,7 +125,7 @@
         height: 30px;
     }
 
-    .picture {
+    .picture, .picture_done {
         margin: 7% 0 0 5%;
         width: 260px;
         height: 180px;
@@ -144,7 +154,7 @@
         height: 50px;
     }
 
-    .picture {
+    .picture, .picture_done {
         margin: 7% 0 0 7%;
         width: 280px;
         height: 180px;

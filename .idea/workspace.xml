@@ -2,25 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1932904c-bbbe-4766-b57d-fe0f065395de" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Components/ItemList/img/noTasksdone.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/About/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/About/About.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/About/About.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/About/About.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/App/App.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/App/App.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Contacts/Contacts.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Contacts/Contacts.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Footer/Footer.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Footer/Footer.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Header/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/InputItem/Input.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/InputItem/Input.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/InputItem/InputItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/InputItem/InputItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Item/Item.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Item/Item.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Item/Item.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Item/Item.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/ItemList/ItemList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ItemList/ItemList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/ItemList/ItemList.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ItemList/ItemList.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Repository/Repository.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Repository/Repository.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/TaskTodo/TaskTodo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/TaskTodo/TaskTodo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/TaskTodo/TaskTodo.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/TaskTodo/TaskTodo.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/serviceWorker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,12 +38,18 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="terminal" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\WS\WebstormProject\react_spaap\src\Components\ItemList\img" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -54,8 +63,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="npm.npm start">
+  <component name="RunManager" selected="Node.js.ItemList.js">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="ItemList.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/Components/ItemList/ItemList.js" working-dir="$PROJECT_DIR$/src/Components/ItemList">
       <method v="2" />
     </configuration>
     <configuration name="npm start" type="js.build_tools.npm">
@@ -68,6 +80,11 @@
       <envs />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.ItemList.js" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -80,7 +97,36 @@
       <option name="presentableId" value="Default" />
       <updated>1590687646223</updated>
       <workItem from="1590687647541" duration="493000" />
-      <workItem from="1590688332909" duration="506000" />
+      <workItem from="1590688332909" duration="1144000" />
+      <workItem from="1590690034472" duration="24000" />
+      <workItem from="1590936082079" duration="9596000" />
+      <workItem from="1591290685924" duration="4570000" />
+      <workItem from="1592327578797" duration="1681000" />
+      <workItem from="1592336286540" duration="1484000" />
+      <workItem from="1592415431465" duration="6594000" />
+      <workItem from="1592507922701" duration="1141000" />
+      <workItem from="1592509488383" duration="818000" />
+      <workItem from="1592845773989" duration="8181000" />
+      <workItem from="1592930696264" duration="7515000" />
+      <workItem from="1592979465129" duration="795000" />
+      <workItem from="1592986785857" duration="6390000" />
+      <workItem from="1593000653782" duration="2117000" />
+      <workItem from="1593004053117" duration="845000" />
+      <workItem from="1593023591953" duration="6606000" />
+      <workItem from="1593101202083" duration="6294000" />
+      <workItem from="1593109394034" duration="612000" />
+      <workItem from="1593110916642" duration="206000" />
+      <workItem from="1593183886274" duration="7058000" />
+      <workItem from="1593269747442" duration="1833000" />
+      <workItem from="1593271626428" duration="602000" />
+      <workItem from="1593365276370" duration="396000" />
+      <workItem from="1595275317948" duration="193000" />
+      <workItem from="1595441278586" duration="6000" />
+      <workItem from="1595443020442" duration="122000" />
+      <workItem from="1595680236030" duration="590000" />
+      <workItem from="1595685813486" duration="870000" />
+      <workItem from="1595696587907" duration="4071000" />
+      <workItem from="1595763898842" duration="2405000" />
     </task>
     <servers />
   </component>

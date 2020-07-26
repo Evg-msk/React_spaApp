@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: bisque;
+    background: linear-gradient(160deg, #C5DDE5, #FFEFE4, #EECFBA);
     width: 100vm;
     height: 100vh;
 }
@@ -17,11 +17,6 @@ li {
     border-radius: 15px;
 }
 
-/*li:hover {
-    background-color: rgba(165,172,163,0.46);
-}*/
-
-/* box styles*/
 .box {
     width: 100%;
     height: 100vh;
@@ -35,6 +30,7 @@ nav {
 }
 
 .link {
+    font-family: "Montserrat Light", sans-serif;
     margin: 10px;
     color: black;
     display: flex;
@@ -44,14 +40,14 @@ nav {
     text-decoration: none;
     outline: none;
     height: 42px;
-    width: 150px;
+    width: 160px;
 }
 
 .link:hover {
     cursor: pointer;
-    background: cornsilk;
+    background: #E5DEEF;
     border-radius: 15px;
-    transition: 0.7s;
+    transition: 0.65s;
 }
 
 .link_active {

@@ -3,23 +3,13 @@
      padding: 0;
  }
 
-/*a:link {
-    text-decoration: none;
-    margin: 10px;
-}
-
-a:visited {
-    color: darkmagenta;
-    text-decoration: none;
-}*/
-
 h2,h3 {
-    font-family: 'Adobe Heiti Std R';
-    font-size: 40px;
+    font-family: 'Gotham Pro Light', sans-serif;
+    font-size: 38px;
     color: black;
     padding: 0;
-    margin: 0;
-    text-shadow: mediumslateblue 0 2px 2px;
+    margin-bottom: 5px;
+    text-shadow: rgba(25,60,208,0.59) 0 2px 2px;
 }
 
 .boxAbout {
@@ -49,6 +39,7 @@ h2,h3 {
 }
 
 .info_user {
+    font-family: Montserrat, sans-serif;
     display: flex;
     flex-direction: column;
     flex-grow: 1;

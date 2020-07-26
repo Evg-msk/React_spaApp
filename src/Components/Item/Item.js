@@ -15,8 +15,10 @@ class Item extends React.Component {
         this.props.onChangeItem(this.props.id, e.currentTarget.value);
     };
 
+
+
    render() {
-       const {id, disabled, isDone} = this.props;
+       const {id, disabled, isDone, task} = this.props;
        return(
            <input
                type='text'
@@ -24,7 +26,8 @@ class Item extends React.Component {
                    classnames({
                        [styles.item]: true,
                        [styles.done]: isDone,
-                       [styles.edit_mode]: !disabled && !isDone
+                       [styles.edit_mode]: !disabled && !isDone,
+                       [styles.edit_err]: task === ''
                    })}
                value={this.state.task}
                id={id}

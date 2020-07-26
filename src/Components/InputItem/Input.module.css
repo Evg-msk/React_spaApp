@@ -55,14 +55,14 @@
     left: 0;
 }
 
-.addbutton {
+.add_btn {
     margin: 0 10px 0 10px;
     background: url(./img/plus.svg) no-repeat;
     height: 45px;
     width: 45px;
 }
 
-.addbutton:hover {
+.add_btn:hover {
     opacity: 0.8;
 }
 

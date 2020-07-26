@@ -6,16 +6,16 @@
 }
 
 .footer_title {
-    margin-top: 12px;
+    margin-top: 15px;
     padding-left: 3%;
-    width: 37%;
-    font: normal normal 26px/16px cursive;
+    width: 35%;
+    font: normal normal 26px/16px "Montserrat";
 }
 
 .task_count {
     color: #356EFF;
     margin-left: 5px;
-    font: normal bold 20px/14px Roboto;
+    font: normal bold 18px/14px Roboto;
 }
 
 .button {
@@ -26,14 +26,14 @@
     border: none;
     outline: none;
     margin: 10px 0 0 25px;
-    font: normal normal 20px/14px 'Pacifico', cursive;
+    font: normal normal 18px/14px 'Oranienbaum';
 }
 
 .button:hover {
     cursor: pointer;
-    background: cornsilk;
+    background: rgba(255,255,228,0.6);
     border-radius: 10px;
-    transition: 0.7s;
+    transition: 0.6s;
 }
 
 .selected {

@@ -82,7 +82,7 @@ class About extends React.Component {
                                     <img src={infoOfUser.avatar_url} alt='Здесь должно быть фото' className={styles.avatar}/>
                                     <div className={styles.info_user}>
                                     <h3> {infoOfUser.name} </h3>
-                                    <p> "{infoOfUser.bio}" </p>
+                                    <p> {infoOfUser.bio} </p>
                                     <Contacts/>
                                     </div>
                                 </div>

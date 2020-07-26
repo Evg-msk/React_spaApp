@@ -1,15 +1,16 @@
 .item {
+    font-family: "Montserrat", sans-serif;
     font-size: 20px;
     color: #3b277f;
     width: 90%;
-    background-color: rgba(210,247,234,0.67);
+    background-color: rgba(210,247,234,0.2);
     outline: none;
     border: none;
 }
 
 .done {
     text-decoration: line-through;
-    color: #46ba8b;
+    color: rgba(120,160,99,0.7);
 }
 
 .edit_mode {
@@ -22,12 +23,19 @@
     padding-left: 5px;
 }
 
+.edit_err {
+    position: relative;
+    border-color: red;
+    border-radius: 15px;
+    background-color: rgba(255,0,29,0.14);
+}
+
 @media (min-width: 320px) and (max-width: 409px) {
     .item {
         font-size: 15px;
     }
 
-    .edit_mode {
+    .edit_mode, .edit_err {
         height: 27px;
     }
 }
@@ -37,7 +45,7 @@
         font-size: 17px;
     }
 
-    .edit_mode {
+    .edit_mode, .edit_err {
         height: 27px;
     }
 }
@@ -47,7 +55,7 @@
         font-size: 23px;
     }
 
-    .edit_mode {
+    .edit_mode, .edit_err {
         height: 35px;
     }
 }

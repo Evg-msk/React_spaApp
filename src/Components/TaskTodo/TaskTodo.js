@@ -3,12 +3,13 @@ import InputItem from "../InputItem/InputItem";
 import ItemList from "../ItemList/ItemList";
 import Footer from "../Footer/Footer";
 import styles from "./TaskTodo.module.css";
+import { DragDropContext } from "react-beautiful-dnd";
 
 const TaskTodo = () => {
    const initialState = {
         items :
             JSON.parse(localStorage.getItem('editedList') ||
-            '[{"task": "Задача №1", "isDone": true, "id": 1, "disabled": true}, {"task": "Обязательно нужно что-то сделать!", "isDone": false, "id": 2, "disabled": true}]'
+                '[{"task": "Задача №1", "isDone": true, "id": 1, "disabled": true}, {"task": "Обязательно нужно что-то сделать!", "isDone": false, "id": 2, "disabled": true}]'
             ),
         count: 2,
         sortTask: 'Все',
@@ -26,7 +27,7 @@ const TaskTodo = () => {
     const onClickDone = id => {
         const newItemList = items.map( item => {
             const newItem = {...item};
-            if (item.id === id) {
+            if (item.id === id && item.disabled) {
                 newItem.isDone = !item.isDone;
             }
             return newItem;
@@ -55,15 +56,19 @@ const TaskTodo = () => {
             ];
             setItems(newItems);
             setCount(count + 1);
+            setSort('Незавершенные');
             setEmpty(false);
-            setExist(false)
+            setExist(false);
         } else {
             setEmpty(task === '');
             setExist(task !== '');
         }
     };
 
-   const onClickEdit = id => {
+   const onClickEdit = (id, task) => {
+       if (task === '') {
+           return;
+       }
            const newItemList = items.map( item => {
                if (item.id === id) {
                    item.disabled = !item.disabled;
@@ -86,8 +91,20 @@ const TaskTodo = () => {
 
    const onClickSort = sorting => setSort(sorting);
 
-   let addToLocal = JSON.stringify(items);
-   localStorage.setItem('editedList', addToLocal);
+   const onDragEnd = result => {
+        const { source, destination } = result;
+        if (!destination) {
+            return;
+        }
+
+        const newItemList = [...items];
+        const [removed] = newItemList.splice(source.index, 1);
+        newItemList.splice(destination.index, 0, removed);
+        setItems([...newItemList])
+    };
+
+        let addToLocal = JSON.stringify(items);
+        localStorage.setItem('editedList', addToLocal);
 
         let sortingTasks;
         switch (sortTask) {
@@ -105,6 +122,7 @@ const TaskTodo = () => {
         }
         return (
             <div className={styles.container}>
+                <DragDropContext onDragEnd={onDragEnd}>
                 <div className={styles.footer}>
                     <Footer
                         items={items}
@@ -125,7 +143,7 @@ const TaskTodo = () => {
                 />
                 </div>
                 <InputItem onClickAdd={onClickAdd} isEmpty={isEmpty} isExist={isExist}/>
-
+                </DragDropContext>
             </div>)
     };
 

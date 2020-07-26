@@ -1,6 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
-
 *{
     margin: 0;
     padding: 0;
@@ -20,7 +17,7 @@
     margin: 0 auto;
 }
 
-/*Styles for Itemlist block*/
+/*Styles for item list block*/
 .tasks_item_list {
     display: flex;
     flex-direction: column;
@@ -45,7 +42,7 @@
     }
 
 
-    /*Styles for Itemlist block*/
+    /*Styles for item list block*/
     .tasks_item_list {
         width: 100%;
         height: 50vh;
@@ -66,7 +63,7 @@
         box-shadow: 5px 5px 6px dimgray;
     }
 
-    /*Styles for Itemlist block*/
+    /*Styles for item list block*/
     .tasks_item_list {
         width: 100%;
         height: 50vh;
@@ -86,7 +83,7 @@
         height: 65vh;
     }
 
-    /*Styles for Itemlist block*/
+    /*Styles for item list block*/
     .tasks_item_list {
         width: 100%;
         height: 50vh;

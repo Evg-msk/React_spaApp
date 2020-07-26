@@ -36,7 +36,7 @@ class InputItem extends React.Component {
                         onChange={event => this.setState({inputValue: event.target.value})}
                     />
                 </div>
-                <div className={styles.addbutton} onClick={this.onIconClick}> </div>
+                <div className={styles.add_btn} onClick={this.onIconClick}> </div>
             </form>);
     }
 }

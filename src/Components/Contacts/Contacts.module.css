@@ -14,6 +14,7 @@
 }
 
 .emailLink {
+    font-family: "Gotham Pro Light", sans-serif;
     color: dimgray;
     height: 16px;
     padding-left: 20px;
@@ -37,6 +38,7 @@
 }
 
 .phoneLink {
+    font-family: "Gotham Pro Light", sans-serif;
     display: flex;
     color: dimgray;
     align-items: center;
