@@ -89,16 +89,16 @@
 
     .repo_about {
         display: flex;
-        margin: 1% 0 1% 2%;
+        margin: 1% 0 2% 2%;
         color: #51534f;
-        font-size: 14px;
+        font-size: 11px;
     }
 
     .language,
     .stargazers,
     .forks,
     .updated {
-        margin-right: 3%;
+        margin-right: 6%;
     }
 
     .language {
@@ -109,19 +109,19 @@
     .html_circle:before,
     .css_circle:before,
     .js_circle:before {
-        height: 14px;
-        width: 14px;
+        height: 12px;
+        width: 12px;
     }
 }
 
 @media (min-width: 410px) and (max-width: 767px) {
     .repo_name {
         margin: 1% 0 2% 2%;
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .repo_about {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .language,
@@ -133,7 +133,7 @@
 
     .language {
         padding-left: 18px;
-        width: 40px;
+        width: 55px;
     }
 
     .html_circle:before,
@@ -155,11 +155,17 @@
         font-size: 22px;
     }
 
+    .stargazers:before,
+    .forks:before {
+        margin-left: 28px;
+    }
+
     .language,
     .stargazers,
     .forks,
     .updated {
-        margin-right: 7%;
+        margin-right: 6%;
+        padding-left: 30px;
     }
 
     .language {
