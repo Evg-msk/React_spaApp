@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1932904c-bbbe-4766-b57d-fe0f065395de" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Components/Contacts/img/email.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/App/App.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/App/App.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Contacts/Contacts.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Contacts/Contacts.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Contacts/img/instagram.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Contacts/img/instagram.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Contacts/img/mail.jpg" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,6 +31,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\WS\WebstormProject\react_spaap\src\Components\Contacts\img" />
       <recent name="F:\WS\WebstormProject\react_spaap\src\Components\ItemList\img" />
     </key>
   </component>
@@ -114,7 +118,17 @@
       <workItem from="1596309541858" duration="719000" />
       <workItem from="1596878157598" duration="2033000" />
       <workItem from="1596880220093" duration="248000" />
-      <workItem from="1596880568633" duration="329000" />
+      <workItem from="1596880568633" duration="677000" />
+      <workItem from="1596881735835" duration="581000" />
+      <workItem from="1596892950552" duration="340000" />
+      <workItem from="1596907383951" duration="104000" />
+      <workItem from="1597446828407" duration="27000" />
+      <workItem from="1597893710194" duration="634000" />
+      <workItem from="1603010962736" duration="56000" />
+      <workItem from="1603221168576" duration="534000" />
+      <workItem from="1603296805932" duration="40000" />
+      <workItem from="1603478453013" duration="18000" />
+      <workItem from="1603523551411" duration="1055000" />
     </task>
     <servers />
   </component>

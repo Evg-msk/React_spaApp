@@ -24,12 +24,12 @@
 
 .emailLink:before {
     content: '';
-    background: url(./img/mail.jpg) no-repeat;
+    background: url(./img/email.svg) no-repeat;
     background-size: cover;
     position: absolute;
-    height: 16px;
-    width: 16px;
-    top: 0;
+    height: 17px;
+    width: 17px;
+    top: 2px;
     left: 0;
 }
 
@@ -68,10 +68,11 @@
 .socialInfo {
     display: flex;
     justify-content: flex-end;
+    align-items: center;
+
 }
 
 .instagram {
-    display: inline-block;
     background: url(./img/instagram.svg) no-repeat;
     background-size: cover;
     margin-right: 10px;
@@ -86,7 +87,6 @@
 }
 
 .vk {
-    display: inline-block;
     background: url(./img/vk.svg) no-repeat;
     background-size: cover;
     margin-right: 10px;
@@ -101,7 +101,6 @@
 }
 
 .github {
-    display: inline-block;
     background: url(./img/githubsvg.svg) no-repeat;
     background-size: cover;
     width: 30px;
